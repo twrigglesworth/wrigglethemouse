@@ -1,0 +1,46 @@
+{
+  "Rules": [
+    {
+      "SettingName": "CrowdStrikeInstalled",
+      "Operator": "IsEquals",
+      "DataType": "Boolean",
+      "Operand": true,
+      "MoreInfoUrl": "https://help.tww-lab.co.uk/crowdstrike",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "CrowdStrike is not installed.",
+          "Description": "This device is missing the required CrowdStrike agent provided by TWW Lab. Please install it or contact TWW Lab support."
+        }
+      ]
+    },
+    {
+      "SettingName": "ThreatLockerInstalled",
+      "Operator": "IsEquals",
+      "DataType": "Boolean",
+      "Operand": true,
+      "MoreInfoUrl": "https://help.tww-lab.co.uk/threatlocker",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "ThreatLocker is not installed.",
+          "Description": "This device is missing the required ThreatLocker agent provided by TWW Lab. Please install it or contact TWW Lab support."
+        }
+      ]
+    },
+      {
+      "SettingName": "ExpressVPNInstalled ",
+      "Operator": "IsEquals",
+      "DataType": "Boolean",
+      "Operand": true,
+      "MoreInfoUrl": "https://help.tww-lab.co.uk/expressvpn",
+      "RemediationStrings": [
+        {
+          "Language": "en_US",
+          "Title": "ThreatLocker is not installed.",
+          "Description": "This device is missing the required Express VPN agent provided by TWW Lab. Please install it or contact TWW Lab support."
+        } ** MAKE SURE THAT YOUR LAST RULE DOESN'T HAVE , **
+      ]
+    }
+  ]
+}
